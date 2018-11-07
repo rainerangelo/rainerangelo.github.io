@@ -36,7 +36,7 @@ h1 {
 }
 
 .first-page {
-    background-color: black;
+    background-color: #090C08; /* Smoky Black */
     color: white;
     height: 100vh;
     max-width: 100%;
@@ -51,4 +51,33 @@ h1 {
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+.bottom-left {
+    bottom: 20px;
+    left: 20px;
+    line-height: 3;
+    position: fixed;
+    text-align: center;
+}
+
+.social-media-icon {
+    color: white;
+    font-size: 24px;
+}
+
+#social-media-icons {
+    list-style: none;
+}
+
+@media only screen and (max-width: 1180px) {
+    .bottom-left {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    h1 {
+        font-size: 3em;
+    }
 }
