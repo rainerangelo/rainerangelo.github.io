@@ -35,9 +35,33 @@ h1 {
     font-size: 4em;
 }
 
+.navbar {
+    background: none;
+    padding: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-nav {
+    position: absolute;
+    padding-top: 20px;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    border: none;
+    outline: none;
+}
+
 .first-page {
-    background-color: #090C08; /* Smoky Black */
-    color: white;
+    background-color: white;
+    color: #090C08;
     height: 100vh;
     max-width: 100%;
     width: 100vw;
@@ -62,7 +86,7 @@ h1 {
 }
 
 .social-media-icon {
-    color: white;
+    color: #090C08;
     font-size: 24px;
 }
 
