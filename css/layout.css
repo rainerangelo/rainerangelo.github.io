@@ -77,6 +77,28 @@ h1 {
     justify-content: center;
 }
 
+.modal {
+    position: absolute !important;
+}
+
+.modal-dialog {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100vw;
+}
+
+.modal-content {
+    border: none;
+    border-radius: 0;
+}
+
+.close {
+    margin: 50px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
 .bottom-left {
     bottom: 20px;
     left: 20px;
