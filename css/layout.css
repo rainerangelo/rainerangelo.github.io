@@ -26,6 +26,8 @@
     src: url('../fonts/CircularStd-Medium.woff') format('woff');
 }
 
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 body {
     font-family: 'Circular Std Book';
 }
