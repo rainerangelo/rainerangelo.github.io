@@ -17,7 +17,14 @@
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="Rainer_Lim_Chevron_IT_Intern_Resume.svg">
   <defs
-     id="defs11099" />
+     id="defs11099" >
+     <style type="text/css">
+         @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+         text {
+            font-family: 'Josefin Sans', sans-serif;
+         }
+     </style>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"

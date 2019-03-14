@@ -26,8 +26,6 @@
     src: url('../fonts/CircularStd-Medium.woff') format('woff');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-
 body {
     font-family: 'Circular Std Book';
 }
@@ -47,8 +45,9 @@ h1 {
 }
 
 .navbar-nav {
-    position: absolute;
+    /* position: absolute; */
     padding-top: 20px;
+    text-align: right;
 }
 
 .navbar-toggler {
